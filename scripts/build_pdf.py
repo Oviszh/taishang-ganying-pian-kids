@@ -163,6 +163,10 @@ def build_individual_pdfs():
 
 
 def main():
+    if "--chapters-only" in sys.argv:
+        build_individual_pdfs()
+        return
+
     doc = BaseDocTemplate(str(OUT), pagesize=A5,
                           leftMargin=14 * mm, rightMargin=14 * mm,
                           topMargin=15 * mm, bottomMargin=15 * mm,
