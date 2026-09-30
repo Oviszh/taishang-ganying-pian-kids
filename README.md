@@ -16,30 +16,31 @@
 ## 本书设计
 
 - **18 章 · 6 个单元**：心念、家庭、同伴、万物、言语情绪、善恶分辨（详见 [主题提炼研究](主题提炼研究.md)）
-- **每章固定结构**：诵读原文几句（注音）→ 逐句白话解释 → 小故事（300–500 字）→ 亲子互动 → 插画占位
+- **每章固定结构**：诵读原文几句（注音）→ 逐句白话解释 → 小故事（300–500 字）→ 亲子互动
 - **诵读理念**：原文四字一句、朗朗上口，孩子很容易熟读成诵。每章精选适合幼儿的原文句子让孩子多读多背——**先背诵，理解会随年龄自然加深**，正如印光大师所说"一一为其略说大意，以为后来读书受益之前导"。
 - **取材边界**：只取原文中适合幼儿的部分；神明监察、恐吓式报应、官场、男女等内容不收录（详见 [主题提炼研究](主题提炼研究.md) 第四节）。
 - **三条教育原则**：
   1. **正向引导**——先讲"怎样做是好的"，不做恐吓式报应
   2. **对事不对人**——只给行为分善恶，绝不给孩子贴"好孩子/坏孩子"标签
   3. **因果软着陆**——"种什么种子，开什么花"，用孩子能理解的方式讲因果
-- **插画占位**：每章预留插画位，待 AI 插画成熟后统一补图
 
 ## 下载
 
-📖 [样章合集 PDF · v0.1](https://oviszh.github.io/taishang-ganying-pian-kids/dist/taishang-ganying-kids-v0.1.pdf) · [在线目录与分章下载](https://oviszh.github.io/taishang-ganying-pian-kids/)
+📎 **线上地址**：https://oviszh.github.io/taishang-ganying-pian-kids/（在线阅读目录，分章与合集 PDF 下载）
 
-全书共 18 章，当前完成 6 章。点击已完成章节右侧的 PDF 可单章下载；待撰写章节暂不提供下载。
+📖 [样章合集 PDF · v0.3](https://oviszh.github.io/taishang-ganying-pian-kids/dist/taishang-ganying-kids-v0.3.pdf) · [在线目录与分章下载](https://oviszh.github.io/taishang-ganying-pian-kids/)
+
+全书共 18 章，当前完成 11 章。点击已完成章节右侧的 PDF 可单章下载；待撰写章节暂不提供下载。
 
 | 章节 | 单元 | 进度 / 下载 |
 |---|---|---|
 | 01 · 种什么种子，开什么花 | 一 · 心里的种子 | [PDF](https://oviszh.github.io/taishang-ganying-pian-kids/dist/chapters/01-种什么种子开什么花.pdf) |
-| 02 · 没人看见也要乖乖的 | 一 · 心里的种子 | 待撰写 |
+| 02 · 没人看见也要乖乖的 | 一 · 心里的种子 | [PDF](https://oviszh.github.io/taishang-ganying-pian-kids/dist/chapters/02-没人看见也要乖乖的.pdf) |
 | 03 · 爱爸爸妈妈，听长辈的话 | 二 · 温暖的家 | [PDF](https://oviszh.github.io/taishang-ganying-pian-kids/dist/chapters/03-爱爸爸妈妈听长辈的话.pdf) |
-| 04 · 兄弟姐妹好朋友 | 二 · 温暖的家 | 待撰写 |
-| 05 · 尊敬老师 | 二 · 温暖的家 | 待撰写 |
+| 04 · 兄弟姐妹好朋友 | 二 · 温暖的家 | [PDF](https://oviszh.github.io/taishang-ganying-pian-kids/dist/chapters/04-兄弟姐妹好朋友.pdf) |
+| 05 · 尊敬老师 | 二 · 温暖的家 | [PDF](https://oviszh.github.io/taishang-ganying-pian-kids/dist/chapters/05-尊敬老师.pdf) |
 | 06 · 分享与谦让 | 三 · 和朋友在一起 | [PDF](https://oviszh.github.io/taishang-ganying-pian-kids/dist/chapters/06-分享与谦让.pdf) |
-| 07 · 借了东西要还 | 三 · 和朋友在一起 | 待撰写 |
+| 07 · 借了东西要还 | 三 · 和朋友在一起 | [PDF](https://oviszh.github.io/taishang-ganying-pian-kids/dist/chapters/07-借了东西要还.pdf) |
 | 08 · 不说谎，心口如一 | 三 · 和朋友在一起 | 待撰写 |
 | 09 · 不嘲笑别人，不说人短处 | 三 · 和朋友在一起 | 待撰写 |
 | 10 · 为别人高兴，不嫉妒 | 三 · 和朋友在一起 | 待撰写 |
@@ -50,7 +51,7 @@
 | 15 · 爱护物品 | 四 · 爱护万物 | 待撰写 |
 | 16 · 说好话，不乱发脾气 | 五 · 好好说话，管好脾气 | [PDF](https://oviszh.github.io/taishang-ganying-pian-kids/dist/chapters/16-说好话不乱发脾气.pdf) |
 | 17 · 善与恶，分得清 | 六 · 善恶小法官 | [PDF](https://oviszh.github.io/taishang-ganying-pian-kids/dist/chapters/17-善与恶分得清.pdf) |
-| 18 · 一日三善 | 六 · 善恶小法官 | 待撰写 |
+| 18 · 一日三善 | 六 · 善恶小法官 | [PDF](https://oviszh.github.io/taishang-ganying-pian-kids/dist/chapters/18-一日三善.pdf) |
 
 完整目录与原文依据见 [book/目录.md](book/目录.md)。
 
@@ -60,4 +61,4 @@
 
 ## 授权
 
-本书内容采用 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans) 协议共享：可自由转载、改编，须署名并以相同方式共享。
+本书不设版权，进入公有领域（Public Domain）：可自由转载、修改、商用，无需署名、无需告知。此前按 CC BY-SA 4.0 协议发布的 v0.1 及更早版本不受影响；自新版起不再设置版权限制。

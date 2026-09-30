@@ -14,16 +14,21 @@ from reportlab.platypus import (BaseDocTemplate, Frame, PageTemplate, Paragraph,
                                 Spacer, PageBreak, Table, TableStyle)
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "dist" / "taishang-ganying-kids-v0.1.pdf"
+OUT = ROOT / "dist" / "taishang-ganying-kids-v0.3.pdf"
 OUT.parent.mkdir(parents=True, exist_ok=True)
 
 CHAPTERS = [
     "01-种什么种子开什么花.md",
+    "02-没人看见也要乖乖的.md",
     "03-爱爸爸妈妈听长辈的话.md",
+    "04-兄弟姐妹好朋友.md",
+    "05-尊敬老师.md",
     "06-分享与谦让.md",
+    "07-借了东西要还.md",
     "13-爱护小动物和花草.md",
     "16-说好话不乱发脾气.md",
     "17-善与恶分得清.md",
+    "18-一日三善.md",
 ]
 
 # ---- 字体 ----
@@ -170,7 +175,7 @@ def main():
     doc = BaseDocTemplate(str(OUT), pagesize=A5,
                           leftMargin=14 * mm, rightMargin=14 * mm,
                           topMargin=15 * mm, bottomMargin=15 * mm,
-                          title="《太上感应篇》学前儿童版 · 样章合集 v0.1")
+                          title="《太上感应篇》学前儿童版 · 样章合集 v0.3")
     frame = Frame(doc.leftMargin, doc.bottomMargin, doc.width, doc.height, id="f")
     doc.addPageTemplates([PageTemplate(id="p", frames=[frame], onPage=on_page)])
 
@@ -179,11 +184,11 @@ def main():
         Paragraph("《太上感应篇》", S["title"]),
         Paragraph("学前儿童版", S["title"]),
         Spacer(1, 8 * mm),
-        Paragraph("样章合集 · v0.1（六个单元各一章）", S["subtitle"]),
+        Paragraph("样章合集 · v0.3（已收录 11 章）", S["subtitle"]),
         Spacer(1, 4 * mm),
         Paragraph("种什么种子，开什么花", S["subtitle"]),
         Spacer(1, 50 * mm),
-        Paragraph("开源共创 · CC BY-SA 4.0", S["subtitle"]),
+        Paragraph("本书不设版权 · 欢迎转载共享", S["subtitle"]),
         Paragraph("github.com/Oviszh/taishang-ganying-pian-kids", S["subtitle"]),
     ]
 
