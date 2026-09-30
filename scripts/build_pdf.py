@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""把已完成的样章渲染成一份 PDF 合集（reportlab + 系统中文字体）。"""
+"""把已完成的样章渲染成 PDF 合集和分章 PDF（reportlab + 系统中文字体）。"""
 import re
 import sys
 from pathlib import Path
@@ -138,8 +138,28 @@ def on_page(canvas, doc):
     canvas.rect(0, 0, A5[0], A5[1], stroke=0, fill=1)
     canvas.setFont(FONT, 7.5)
     canvas.setFillColor(colors.HexColor("#b0a48c"))
-    canvas.drawCentredString(A5[0] / 2, 8 * mm, f"《太上感应篇》学前儿童版 · 样章合集  —  {doc.page}")
+    canvas.drawCentredString(A5[0] / 2, 8 * mm, f"《太上感应篇》学前儿童版 · {doc.page}")
     canvas.restoreState()
+
+
+def build_individual_pdfs():
+    out_dir = ROOT / "dist" / "chapters"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for chapter in CHAPTERS:
+        source = ROOT / "book" / "chapters" / chapter
+        output = out_dir / (source.stem + ".pdf")
+        doc = BaseDocTemplate(str(output), pagesize=A5,
+                              leftMargin=14 * mm, rightMargin=14 * mm,
+                              topMargin=15 * mm, bottomMargin=15 * mm,
+                              title=source.stem)
+        frame = Frame(doc.leftMargin, doc.bottomMargin, doc.width, doc.height, id="f")
+        doc.addPageTemplates([PageTemplate(id="p", frames=[frame], onPage=on_page)])
+        story = []
+        render_chapter(source, story)
+        if story and isinstance(story[0], PageBreak):
+            story.pop(0)
+        doc.build(story)
+        print(f"PDF written: {output} ({output.stat().st_size} bytes)")
 
 
 def main():
@@ -168,6 +188,7 @@ def main():
 
     doc.build(story)
     print(f"PDF written: {OUT} ({OUT.stat().st_size} bytes)")
+    build_individual_pdfs()
 
 
 if __name__ == "__main__":
